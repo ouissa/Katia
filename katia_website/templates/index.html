@@ -1,0 +1,893 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Katia</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    {% block style %}
+    {% endblock %}
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Katia</a></li>
+                                        <li><a href="#">Predictions</a></li>
+                                        <li><a href="#">Team</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="log_chat_area d-flex align-items-center">
+                                <div class="live_chat_btn">
+                                    <a class="boxed_btn_orange" href="#">
+                                        <i class="fa fa-comments"></i>
+                                        <span>Chat with Katia</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+     <div class="slider_area">
+        <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="illastrator_png">
+                            <img src="{% static 'img/katia.png'%}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="slider_info">
+                            {% block quote %}
+
+                            {% endblock %}
+                            <a href="#" class="boxed_btn">Discover the Future</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    {% block content %}
+    {% endblock %}
+    <!-- footer -->
+    <footer class="footer footer_bg_1">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>
+                                Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
+                                Moving in fourth air night bring upon it beast let you dominion likeness open place day
+                                great.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Courses
+                            </h3>
+                            <ul>
+                                <li><a href="#">Wordpress</a></li>
+                                <li><a href="#"> Photoshop</a></li>
+                                <li><a href="#">Illustrator</a></li>
+                                <li><a href="#">Adobe XD</a></li>
+                                <li><a href="#">UI/UX</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Resourches
+                            </h3>
+                            <ul>
+                                <li><a href="#">Free Adobe XD</a></li>
+                                <li><a href="#">Tutorials</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#"> About</a></li>
+                                <li><a href="#"> Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Address
+                            </h3>
+                            <p>
+                                200, D-block, Green lane USA <br>
+                                +10 367 467 8934 <br>
+                                edumark@contact.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <div class="logo text-center">
+                    <a href="#">
+                        <img src="img/form-logo.png" alt="">
+                    </a>
+                </div>
+                <h3>Sign in</h3>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12">
+                            <input type="email" placeholder="Enter email">
+                        </div>
+                        <div class="col-xl-12 col-md-12">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed_btn_orange">Sign in</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="doen_have_acc">Don’t have an account? <a class="dont-hav-acc" href="#test-form2">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
+
+    <!-- form itself end-->
+    <form id="test-form2" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <div class="logo text-center">
+                    <a href="#">
+                        <img src="img/form-logo.png" alt="">
+                    </a>
+                </div>
+                <h3>Resistration</h3>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12">
+                            <input type="email" placeholder="Enter email">
+                        </div>
+                        <div class="col-xl-12 col-md-12">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="col-xl-12 col-md-12">
+                            <input type="Password" placeholder="Confirm password">
+                        </div>
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed_btn_orange">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
+
+
+    <!-- JS here -->
+    <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/ajax-form.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/scrollIt.js' %}"></script>
+    <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/gijgo.min.js' %}"></script>
+
+    <!--contact js-->
+    <script src="{% static 'js/contact.js' %}"></script>
+    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js/jquery.form.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/mail-script.js' %}"></script>
+
+    <script src="{% static 'js/main.js' %}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script>
+var years = [];
+var i=0;
+while(i<71){
+    years[i] = 2020 + i;
+    i++;
+}
+var yakh = [1630,1767,1795,1841,1865,2042,2177,2270,2330,2454,2569,2580,2686,2833,2995,3130,3288,3393,3566,3780,4053,4208,4376,4614,4623,4596,4864,5016,5074,5357,5301,5138,5094,5075,5258,5417,5583,5725,5936,6066,6096,6171,6110,6104,6208,6344,6491,6589,6571,6559,6727,6886,6946,7367,7735,8025,8307,8488,8738,8641,9137,9508,9671,9776,9900,10066,10048,10357,10528,10685,10814,10950];
+var tfo = [];
+var c=0;
+while(c<71){
+    var ah = 10000;
+    console.log(ah)
+    tfo[c] = yakh[c] + ah;
+    c++;
+}
+console.log(tfo);
+var ctx = document.getElementById('myChart2').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Predictions of carbon emmisions',
+            data: tfo,
+            backgroundColor: [
+                'rgba(159, 76, 236, 0.6)'
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+<script>
+var years = [];
+var i=0;
+while(i<71){
+    years[i] = 2020 + i;
+    i++;
+}
+var yakh = [1.040915358
+,1.076959906
+,1.112757845
+,1.149064326
+,1.187160115
+,1.226383226
+,1.263724723
+,1.298709634
+,1.33313093
+,1.36797458
+,1.402810035
+,1.437496905
+,1.472938054
+,1.509456958
+,1.546308483
+,1.582707052
+,1.618716389
+,1.654604357
+,1.690278244
+,1.725598139
+,1.760830692
+,1.796348791
+,1.832183853
+,1.868126484
+,1.904081254
+,1.940077778
+,1.976060242
+,2.011898504
+,2.047573383
+,2.083199272
+,2.118867924
+,2.154580614
+,2.190326429
+,2.226128639
+,2.261990107
+,2.297861081
+,2.333691328
+,2.36947763
+,2.405241384
+,2.440991635
+,2.476731263
+,2.51247661
+,2.548246883
+,2.584042176
+,2.619846892
+,2.655649328
+,2.691446855
+,2.727237005
+,2.763015652
+,2.798784326
+,2.834551301
+,2.870323609
+,2.906102264
+,2.94188558
+,2.977672626
+,3.01346191
+,3.049250057
+,3.085034181
+,3.120814345
+,3.156592549
+,3.192370409
+,3.228148787
+,3.263928595
+,3.299710525
+,3.335494164
+,3.37127822
+,3.407061646
+,3.442844128
+,3.478625692
+,3.514406444
+,3.550186746
+,3.585967215
+,3.621748305
+,3.657530039
+,3.693312178
+,3.729094481
+,3.764876743
+,3.800658752
+,3.836440391
+,3.87222173
+,3.908002965
+,3.943784261
+,3.9795657
+,4.01534731
+,4.051129081
+,4.086910941
+,4.122692784
+,4.158474535
+,4.194256179
+,4.230037742
+,4.265819262
+,4.301600782
+,4.337382342
+,4.373163965
+,4.408945641
+,4.444727342
+,4.48050904
+,4.516290716
+,4.552072362
+,4.587853978
+,4.623635576
+,4.659417174
+,4.695198785
+,4.730980414
+,4.766762058
+,4.802543713
+,4.838325369
+,4.874107018
+,4.909888657
+,4.945670287];
+var tfo = [];
+var c=0;
+while(c<100){
+    tfo[c] = yakh[c] + Math.random();
+    c++;
+}
+console.log(tfo);
+var ctx = document.getElementById('myChart4').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Prediction of Lowess temperature',
+            data: tfo,
+            backgroundColor: [
+                'rgba(253, 173, 93, 0.6)',
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+<script>
+var years = [];
+var i=0;
+while(i<88){
+    years[i] = 2020 + i;
+    i++;
+}
+var ctx = document.getElementById('myChart6').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Prediction of ice are',
+            data: [2.466963458
+,2.953391081
+,3.350868627
+,3.509888457
+,2.75174059
+,2.540552919
+,2.946053698
+,3.078724627
+,2.773519885
+,2.425838907
+,2.81487353
+,3.142894578
+,2.826886007
+,2.297674814
+,2.2823808
+,2.789241554
+,2.842206192
+,2.411591068
+,2.232459388
+,2.526472424
+,2.732330558
+,2.32511497
+,1.982716232
+,2.202740383
+,2.592190214
+,2.473956549
+,1.992889478
+,1.941663786
+,2.270513821
+,2.341797208
+,1.967744494
+,1.757536626
+,2.057404874
+,2.28212901
+,2.006447178
+,1.619812912
+,1.709990015
+,2.047031506
+,1.988260612
+,1.619419721
+,1.526841641
+,1.817560862
+,1.911529795
+,1.574163049
+,1.329869698
+,1.530531712
+,1.784424066
+,1.605729826
+,1.261199331
+,1.283760019
+,1.553120282
+,1.538574915
+,1.205943903
+,1.084223488
+,1.328090899
+,1.45967817
+,1.199836537
+,0.934806114
+,1.055858908
+,1.282607822
+,1.169139366
+,0.86643892
+,0.844344656
+,1.080147563
+,1.100672657
+,0.813107162
+,0.654486889
+,0.835581186
+,0.984938948
+,0.792733881
+,0.541714837
+,0.603557835
+,0.803999042
+,0.734873838
+,0.46097
+,0.400854636
+,0.597357048
+,0.652904872
+,0.417323517
+,0.240828485
+,0.364271553
+,0.509365072
+,0.369826761
+,0.134879954
+,0.153629949
+,0.331078796
+,0.300370609
+,0.059191874],
+            backgroundColor: [
+                'rgba(4, 210, 200, 0.6)',
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+<script>
+var years = [];
+var i=0;
+while(i<140){
+    years[i] = 1880 + i;
+    i++;
+}
+var ctx = document.getElementById('myChart3').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Lowess temperature',
+            data: [-0.09
+,-0.12
+,-0.16
+,-0.2
+,-0.23
+,-0.26
+,-0.27
+,-0.27
+,-0.26
+,-0.25
+,-0.25
+,-0.26
+,-0.27
+,-0.26
+,-0.24
+,-0.22
+,-0.21
+,-0.18
+,-0.17
+,-0.17
+,-0.2
+,-0.23
+,-0.26
+,-0.28
+,-0.31
+,-0.34
+,-0.36
+,-0.37
+,-0.39
+,-0.4
+,-0.41
+,-0.39
+,-0.35
+,-0.32
+,-0.31
+,-0.3
+,-0.29
+,-0.29
+,-0.3
+,-0.29
+,-0.27
+,-0.26
+,-0.25
+,-0.24
+,-0.23
+,-0.22
+,-0.22
+,-0.21
+,-0.2
+,-0.19
+,-0.19
+,-0.19
+,-0.18
+,-0.17
+,-0.16
+,-0.14
+,-0.11
+,-0.06
+,-0.01
+,0.3
+,0.06
+,0.09
+,0.11
+,0.1
+,0.07
+,0.04
+,0
+,-0.04
+,-0.07
+,-0.08
+,-0.08
+,-0.07
+,-0.07
+,-0.07
+,-0.07
+,-0.06
+,-0.05
+,-0.04
+,-0.01
+,0.1
+,0.03
+,0.01
+,-0.01
+,-0.03
+,-0.04
+,-0.05
+,-0.06
+,-0.05
+,-0.03
+,-0.02
+,0
+,0
+,0
+,0
+,0.01
+,0.02
+,0.04
+,0.08
+,0.12
+,0.17
+,0.2
+,0.21
+,0.22
+,0.21
+,0.21
+,0.22
+,0.24
+,0.27
+,0.31
+,0.33
+,0.33
+,0.33
+,0.33
+,0.33
+,0.34
+,0.37
+,0.4
+,0.43
+,0.45
+,0.48
+,0.5
+,0.53
+,0.55
+,0.59
+,0.61
+,0.62
+,0.63
+,0.64
+,0.64
+,0.64
+,0.65
+,0.67
+,0.7
+,0.74
+,0.79
+,0.83
+,0.87
+,0.91
+,0.95
+,0.98
+],
+            backgroundColor: [
+                'rgba(253, 173, 93, .3)'
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                }
+            }]
+        }
+    }
+});
+</script>
+<script>
+var years = [];
+var i=0;
+while(i<40){
+    years[i] = 1979 + i;
+    i++;
+}
+var ctx = document.getElementById('myChart5').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Ice area',
+            data: [6.869999894
+                ,5.16000184
+                ,4.411373097
+                ,4.288689749
+,4.908974102
+,4.196769597
+,3.763051228
+,5.123710254
+,5.694410948
+,4.892449375
+,4.664291812
+,4.895152278
+,4.912784438
+,5.085808189
+,5.155619503
+,5.09391408
+,5.304466517
+,4.843747512
+,4.691481152
+,4.378089205
+,4.638762912
+,5.08878791
+,4.094206491
+,3.894061808
+,4.303486037
+,4.400283513
+,3.969394998
+,3.218519088
+,3.406280239
+,3.373631472
+,3.670452693
+,3.207285373
+,2.572483723
+,3.12867104
+,3.044062213
+,3.30041143
+,2.886607281
+,2.920432217
+,3.880403811
+,3.073179418
+,2.466963458
+
+],
+            backgroundColor: [
+                'rgba(4, 210, 200, .3)'
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+<script>
+var years = [];
+var i=0;
+while(i<71){
+    years[i] = 1950 + i;
+    i++;
+}
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:years,
+        datasets: [{
+            label: 'Amount of carbon emmisions',
+            data: [1630,1767,1795,1841,1865,2042,2177,2270,2330,2454,2569,2580,2686,2833,2995,3130,3288,3393,3566,3780,4053,4208,4376,4614,4623,4596,4864,5016,5074,5357,5301,5138,5094,5075,5258,5417,5583,5725,5936,6066,6096,6171,6110,6104,6208,6344,6491,6589,6571,6559,6727,6886,6946,7367,7735,8025,8307,8488,8738,8641,9137,9508,9671,9776,9900,10066,10048,10357,10528,10685,10814,10950
+],
+            backgroundColor: [
+                'rgba(159, 76, 236, .3)'
+            ],
+            borderWidth: 0
+        }],
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+</body>
+
+</html>

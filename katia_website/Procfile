@@ -1,0 +1,1 @@
+web: gunicorn Katia.wsgi:application --log-file -

@@ -1,0 +1,61 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block quote %}
+    <h3>Meet my<br>
+         Team...<br>
+         it is interesting!</h3>
+{% endblock %}
+{% block content %}
+
+
+
+<!-- Page Content -->
+<div class="container mt-30">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-6 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="{% static 'img/yahya.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Yahya Jamal</h5>
+          <div class="card-text text-black-50">Analytical</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-6 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="{% static 'img/ouissal.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Ouissal Moumou</h5>
+          <div class="card-text text-black-50">Strategist</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-6 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Mohamed Moumou</h5>
+          <div class="card-text text-black-50">Analytical</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-6 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="{% static 'img/zakaria.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Zakaria Taleb</h5>
+          <div class="card-text text-black-50">Creative</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+</div>
+
+
+{% endblock %}
